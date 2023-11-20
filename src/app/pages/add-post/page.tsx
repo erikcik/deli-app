@@ -4,7 +4,7 @@ import React from "react";
 const page = () => {
   return (
     <div className="m-8">
-      <p className="text-3xl">Add Your Post my boi</p>
+      <p className="text-3xl">Add Your Post my boi Eray</p>
       <PostForm />
     </div>
   );

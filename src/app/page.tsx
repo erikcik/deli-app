@@ -23,7 +23,10 @@ export default async function Home() {
         <div className=" ">
           {posts.map((post) => (
             <>
-              <div className="bg-gray-400 w-full h-20 my-8">{post.content}</div>
+              <div className="bg-gray-400 w-full h-20 my-8">
+                <div>{post.content}</div>
+                <Link href={"/pages/" + post.id}>Go to the post </Link>
+              </div>
             </>
           ))}
         </div>
